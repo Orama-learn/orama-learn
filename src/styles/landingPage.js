@@ -5,7 +5,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 0 2rem;
+  padding: 1.6rem 2rem;
+  overflow: hidden;
   @media (max-width: 1000px) {
     flex-direction: column;
     align-items: center;
@@ -56,7 +57,7 @@ export const ButtonLogin = styled.button`
 export const ButtonSingIn = styled.button`
   width: 15.6rem;
   height: 3.6rem;
-  margin-top: 1.6rem;
+  margin: 1.6rem 1.3rem;
   box-shadow: 0px 0px 1px green;
   border-radius: 50px;
   border: none;
